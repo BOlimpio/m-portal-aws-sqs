@@ -16,7 +16,7 @@ Here is the table of module inputs based on the provided variables:
 |-----------------------------------------|---------|-------------------------------------------------------------------------|-------------|----------|
 | create_queue                            | bool    | Whether to create the SQS queue.                                       | true        | no       |
 | create_queue_policy                     | bool    | Whether to create a policy for the SQS queue.                          | true        | no       |
-| name                                    | string  | The name of the SQS queue.                                             |  | yes       |
+| name                                    | string  | The name of the SQS queue.                                             | "" | yes       |
 | name_prefix                             | string  | Creates a unique name beginning with the specified prefix.             | null        | no       |
 | visibility_timeout_seconds              | number  | The duration (in seconds) that the received messages are hidden from the queue. | 30          | no       |
 | message_retention_seconds               | number  | The number of seconds that Amazon SQS retains a message.               | 345600      | no       |
